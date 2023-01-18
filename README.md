@@ -5,7 +5,7 @@ Hide files in picture via LSB
    Stores hidden info using the lowest bit of the R channel of the image pixel. Since the pixel value does not change by more than 1, it is difficult for the human eye to distinguish the difference before and after the change, thus hiding the info.
 
 ## zipper
-   Compression of the file or input to be processed in order to hide more info in the image
+   Compression of the file or input to be processed in order to hide more info in the image. It's okay to compress the directory or stdin, so you can hide dirs or stdin into a image.
 
 ## encrypt
    The first 32 pixels of the image store the header, which records the length of the info to be hidden (in bytes), it is sufficient for most files
