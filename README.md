@@ -16,5 +16,5 @@ Hide files in picture via LSB
    The hidden message is parsed backwards according to the encrypt encoding
 
 ## Storage size
-   For example, if the image size is 1024*640, a total of 1024*640/8/1024 = 80K bytes can be stored, which is sufficient for most information.
+   For example, if the image size is 1024 * 640, a total of 1024 * 640 / 8 / 1024 = 80K bytes can be stored, which is sufficient for most information.
 
